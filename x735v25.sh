@@ -70,4 +70,3 @@ echo "X735 Shutting down..."
 echo "0" > /sys/class/gpio/gpio$BUTTON/value
 ' > /usr/local/bin/x735softsd.sh
 sudo chmod +x /usr/local/bin/x735softsd.sh
-sudo systemctl enable pigpiod
